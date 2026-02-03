@@ -1,0 +1,22 @@
+[project]
+name = "sysmon-pipeline"
+version = "0.1.0"
+description = "Modular Sysmon behavioral analytics pipeline (extracted from Sysmon_v12_enhanced notebook)"
+requires-python = ">=3.9"
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "networkx",
+  "matplotlib",
+  "plotly",
+  "ipywidgets",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
