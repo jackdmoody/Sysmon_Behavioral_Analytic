@@ -32,23 +32,37 @@ The emphasis is on **explainable, analyst-relevant signals**, not black-box clas
 ## Repository Structure
 
 ├── sysmon_pipeline/
+
 │ ├── init.py
+
 │ ├── config.py # Central configuration object
+
 │ ├── schema.py # Schema validation & type coercion
+
 │ ├── mapping.py # Event severity scoring & MITRE tagging
+
 │ ├── pairs.py # Event-pair correlation & host statistics
+
 │ ├── graph.py # Event-pair graph construction & metrics
+
 │ ├── sequence.py # Markov transition matrices
+
 │ ├── divergence.py # KL & JS divergence
+
 │ ├── scoring.py # Evidence fusion & triage ranking
+
 │ ├── pipeline.py # Orchestration (fit / score)
+
 │ └── dashboard.py # Optional analyst-facing views
+
 │
 ├── notebooks/
 │ └── 01_run_pipeline.ipynb # Slim runner notebook
+
 │
 ├── scripts/
 │ └── extract_from_notebook.py # Helper for refactoring legacy notebooks
+
 │
 └── README.md
 
