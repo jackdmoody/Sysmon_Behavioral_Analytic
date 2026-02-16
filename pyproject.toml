@@ -18,7 +18,8 @@ dependencies = [
   "matplotlib>=3.7"
 ]
 
+[tool.setuptools.packages.find]
+where = ["sysmon_pipeline_updated"]
+
 [tool.setuptools]
-# This tells setuptools to package the folder named "sysmon_pipeline_updated"
-packages = ["sysmon_pipeline_updated/sysmon_pipeline/"]
 include-package-data = true
