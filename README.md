@@ -8,6 +8,11 @@ This project refactors a previously monolithic research notebook into a **testab
 - operational experimentation and evaluation  
 
 ---
+## Architectural Framework
+<img width="1404" height="1272" alt="STRATA_E" src="https://github.com/user-attachments/assets/c2d7c798-16be-4efc-935c-378de3762e72" />
+
+
+---
 
 ## Conceptual Overview
 
@@ -30,6 +35,7 @@ It does this by layering **complementary analytic perspectives** over the same S
    Combines statistical outliers and sequential drift into a single ranked triage table designed for analyst review.
 
 Rather than producing binary alerts, the system produces **ranked, evidence-backed leads**.
+
 
 ---
 ## Analytic Philosophy
