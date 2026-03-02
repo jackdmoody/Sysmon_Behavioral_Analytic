@@ -1,0 +1,2 @@
+n_hosts,ks_statistic,ks_pvalue,calibration_ok,mean_pvalue,interpretation
+24,0.7568,0.0,False,0.8219,"FAIL — non-uniform, recalibrate null distribution"

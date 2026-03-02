@@ -1,0 +1,11 @@
+K,recall,n_attack,n_found,condition
+1,0.0,12,0,role_baselines
+3,0.0,12,0,role_baselines
+5,0.0,12,0,role_baselines
+10,0.0,12,0,role_baselines
+20,0.0,12,0,role_baselines
+1,0.0,12,0,global_baseline
+3,0.0,12,0,global_baseline
+5,0.0,12,0,global_baseline
+10,0.0,12,0,global_baseline
+20,0.0,12,0,global_baseline

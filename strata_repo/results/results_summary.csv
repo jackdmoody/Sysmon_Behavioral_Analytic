@@ -1,0 +1,6 @@
+hypothesis,claim,metric,result
+H1,Shrinkage reduces JSD variance vs MLE,Variance reduction: 99.8%,SUPPORTED
+H2,Role baselining improves Top-5 recall,"Role: 0.00, Global: 0.00",NOT SUPPORTED
+H3,Calibrated p-values are uniform (KS test),KS p=0.0000,NOT SUPPORTED
+H4,Fusion improves Top-5 recall vs best single channel,"Fused: 0.00, Best single: 0.00",SUPPORTED
+H5,Gating reduces FPR without degrading recall,FPR: 0.167 vs 0.667 | Recall@5: 0.00 vs 0.00,SUPPORTED

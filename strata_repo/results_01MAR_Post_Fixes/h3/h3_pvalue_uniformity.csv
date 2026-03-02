@@ -1,0 +1,2 @@
+n_hosts,ks_statistic,ks_pvalue,calibration_ok,mean_pvalue,interpretation
+40,0.1696,0.1783,True,0.5357,PASS — p-values approximately uniform
